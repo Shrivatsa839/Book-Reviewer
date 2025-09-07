@@ -1,0 +1,68 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.book-card {
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  object-fit: cover;
+  height: 300px;
+  width: 200px;
+}
+
+.review-list {
+  margin-top: 20px;
+}
+
+.star-rating {
+  color: #ffc107;
+}
+
+/* Modern Heading Styles */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif; /* Modern font; add this via Google Fonts */
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  background: linear-gradient(90deg, #007bff, #00c4cc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: #007bff;
+  text-decoration-thickness: 2px;
+.book-card img {
+  object-fit: cover;
+  max-height: 300px;
+  max-width: 200px;
+  width: 100%; /* Ensures it scales with the card */
+}
+}
